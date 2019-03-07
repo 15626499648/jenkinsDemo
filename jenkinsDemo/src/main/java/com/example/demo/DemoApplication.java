@@ -15,6 +15,11 @@ public class DemoApplication {
         return "test";
     }
 
+    @RequestMapping(value="/test1")
+    public String testProject1(){
+        return "test1";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
