@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
     @RequestMapping(value="/test")
     public String testProject(){
-        return "linux + jenkinsDemo1";
+        return "linux + jenkinsDemo";
     }
 
     @RequestMapping(value="/test1")
