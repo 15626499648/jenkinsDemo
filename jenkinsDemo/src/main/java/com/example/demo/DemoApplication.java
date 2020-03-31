@@ -16,7 +16,7 @@ import java.util.List;
 public class DemoApplication {
     @RequestMapping(value="/test")
     public String testProject(){
-        return "linux + jenkinsDemo";
+        return "linux jenkins";
     }
 
     @RequestMapping(value="/test1")
